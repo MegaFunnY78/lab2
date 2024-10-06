@@ -14,7 +14,6 @@ public class Main {
         List<Integer> num1 = new ArrayList<>();
         List<Integer> num2 = new ArrayList<>();
 
-        // Заполнение списков четными и нечетными числами
         for (int i = x; i <= y; i++) {
             if (i % 2 == 0) {
                 num1.add(i);
